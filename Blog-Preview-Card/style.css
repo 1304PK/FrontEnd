@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+}
+
+p {
+    font-family: 'Figtree';
+}
+
+body, html {
+    background-color: hsl(47, 88%, 63%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-content {
+    width: 336px;
+    height: 498px;
+    background: white;
+    padding: 24px 24px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 8px 8px 0px black;
+}
+
+.learning-div {
+    background-color: hsl(47, 88%, 63%);
+    width: min-content;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin: 24px 0px;
+}
+
+.learning-div p {
+    font-family: 'Figtree';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px;
+}
+
+.paragraph {
+    font-size: 16px;
+    color: #6B6B6B;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.author img {
+    height: 32px;
+
+}
+
+.author p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 16px;
+}
