@@ -45,6 +45,11 @@ body, html {
     font-size: 24px;
     font-weight: 800;
     margin: 24px 0px;
+    &:hover {
+        color: hsl(47, 88%, 63%);
+        cursor: pointer;
+    }
+
 }
 
 .paragraph {
