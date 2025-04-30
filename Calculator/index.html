@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="input-div">
+            <p class="displayCalc"></p>
+        </div>
+        <div class="buttons-div">
+            <button class="buttons" onclick="allClear()">AC</button>
+            <button class="buttons" onclick="deleteWord()">DE</button>
+            <button class="buttons" onclick="updateStatement(this)">.</button>
+            <button class="buttons" onclick="updateStatement(this)">/</button>
+            <button class="buttons" onclick="updateStatement(this)">7</button>
+            <button class="buttons" onclick="updateStatement(this)">8</button>
+            <button class="buttons" onclick="updateStatement(this)">9</button>
+            <button class="buttons" onclick="updateStatement(this)">x</button>
+            <button class="buttons" onclick="updateStatement(this)">4</button>
+            <button class="buttons" onclick="updateStatement(this)">5</button>
+            <button class="buttons" onclick="updateStatement(this)">6</button>
+            <button class="buttons" onclick="updateStatement(this)">-</button>
+            <button class="buttons" onclick="updateStatement(this)">1</button>
+            <button class="buttons" onclick="updateStatement(this)">2</button>
+            <button class="buttons" onclick="updateStatement(this)">3</button>
+            <button class="buttons" onclick="updateStatement(this)">+</button>
+            <button class="buttons" onclick="updateStatement(this)">00</button>
+            <button class="buttons" onclick="updateStatement(this)">0</button>
+            <button class="buttons result-button" onclick="calcResult()">=</button>
+            
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
